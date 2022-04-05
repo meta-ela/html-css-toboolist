@@ -22,7 +22,7 @@ h1 {
 }
 
 header img {
-    margin: 10px 0px 0px 20px ;
+    margin: 10px 0px 5px 20px ;
     vertical-align: middle;
 }
 
@@ -61,6 +61,7 @@ nav button {
     height: 500px;
     margin: auto;
     padding: 30px 50px;
+    border-radius: 8px;
 }
 
 h2 {
