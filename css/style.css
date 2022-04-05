@@ -58,9 +58,18 @@ nav button {
 .main-task {
     background-color: white;
     width: 900px;
-    height: 900px;
+    height: 500px;
     margin: auto;
     padding: 30px 50px;
+}
+
+h2 {
+    margin: 10px;
+}
+
+section div {
+    margin: 10px 10px;
+    
 }
 
 .check {
@@ -83,5 +92,17 @@ nav button {
     text-align: center;
     display: inline-block;
     font-size: 15px;
+}
 
+.editorial-box {
+    color: white;
+    background-color: rgba(71,173,241,255);
+    border-radius: 10px;
+    font-size: 10px;
+    width: 55px;
+    height: 25px;
+    text-align: center;
+    display: inline-block;
+    padding: 5px;
+    vertical-align: middle;
 }
