@@ -94,9 +94,8 @@ section div {
     font-size: 15px;
 }
 
-.editorial-box {
+.editorial-box, .goals-box, .recruiting-box, .mobile-box, .website-box, .sales-box {
     color: white;
-    background-color: rgba(71,173,241,255);
     border-radius: 10px;
     font-size: 10px;
     width: 55px;
@@ -105,4 +104,28 @@ section div {
     display: inline-block;
     padding: 5px;
     vertical-align: middle;
+}
+
+.editorial-box {
+    background-color: rgba(71,173,241,255);
+}
+
+.goals-box {
+    background-color: #9c72e4;
+}
+
+.recruiting-box {
+    background-color: #64c0a9;
+}
+
+.mobile-box {
+background-color: #f29e33;
+}
+
+.website-box {
+    background-color: #d864a2;
+}
+
+.sales-box {
+    background-color: #b0c926;
 }
