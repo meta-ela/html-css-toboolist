@@ -71,6 +71,7 @@ nav button {
     height: 20px;
     text-align: center;
     display: inline-block;
+    font-size: 15px;
 }
 
 .cross {
@@ -81,5 +82,6 @@ nav button {
     height: 20px;
     text-align: center;
     display: inline-block;
+    font-size: 15px;
 
 }
