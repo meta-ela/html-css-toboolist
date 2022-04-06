@@ -23,14 +23,20 @@
         </nav>
 
         <!-- corpo principale -->
-        <!-- &#10005; x entity -->
-        <!-- &#10003; check v entity -->
+        <!-- &#10005; cross x entity code -->
+        <!-- &#10003; check v entity code -->
         <div class="main-task">
             <section>
+                <!-- meglio racchiudere l'entity in un tag span e formattare in css con widht e text-align center per centrare meglio il testo -->
                 <h2>&#9662; New Task</h2>
                 <div> <span class="check">&#10003;</span> Quarterly Newsletter <span class="editorial-box">Editorial</span></div> 
             </section>
 
+            <!-- era meglio utilizzare una ul modificando il disc:
+            <ul> 
+                <li> <span>entitycode<span> blablablabala <li> 
+                (modificare in css con [list-style: none] e toglie il puntino di default e aggiungere dentro ogni li uno span con l'entity)
+                (possibile anche usare list-style-image e utilizzare una img creata o scaricata online, se usi il svg vector non sgrani)-->
             <section>
                 <h2>&#9662; Today</h2>
                 <div> <span class="check">&#10003;</span> Recruiting blog post <span class="editorial-box">Editorial</span></div>

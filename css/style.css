@@ -17,10 +17,11 @@ h1 {
     display: inline-block;
     vertical-align: middle;
     font-size: 40px;
-    color: rgba(6,27,50,255);
-    
+    color: rgba(6,27,50,255); 
 }
 
+
+/*meglio utilizzare il padding per la centratura degli elementi azichè il margin*/
 header img {
     margin: 10px 0px 5px 20px ;
     vertical-align: middle;
@@ -68,11 +69,13 @@ h2 {
     margin: 10px;
 }
 
+/*meglio utilizzare una class="list-item" per ragruppare tutti i div. */
 section div {
     margin: 10px 10px;
     
 }
 
+/* utilizzare una line-height per centrare in altezza l'entity all'interno del quadrato creato per i bordi*/
 .check {
     border: 1px solid #6bc3ae;
     color: #6bc3ae;
@@ -95,6 +98,8 @@ section div {
     font-size: 15px;
 }
 
+/* era possibile creare doppio class tipo class="family editorial-box" in modo da fare in css
+.family e dargli tutti gli style e .editorial-box per cambiare colore*/
 .editorial-box, .goals-box, .recruiting-box, .mobile-box, .website-box, .sales-box {
     color: white;
     border-radius: 10px;
